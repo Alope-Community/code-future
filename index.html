@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="overflow-x-hiden">
+    <header
+      class="bg-gradient-to-r from-[#0f172a] via-[#1e3a8a] to-[#2563eb] fixed left-0 top-0 w-full z-50 shadow-md"
+    >
+      <div class="container mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex-shrink-0">
+            <a
+              href="#home"
+              class="flex items-center gap-2 font-bold text-2xl sm:text-3xl text-white py-2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 mt-1 text-[#2563eb]"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+                <line x1="12" y1="2" x2="12" y2="22" />
+              </svg>
+              Code <span class="text-[#2563eb]">Future</span>
+            </a>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="lg:hidden">
+            <button
+              id="hamburger"
+              type="button"
+              class="text-white focus:outline-none"
+            >
+              <div class="space-y-1">
+                <span class="block w-6 h-0.5 bg-white"></span>
+                <span class="block w-6 h-0.5 bg-white"></span>
+                <span class="block w-6 h-0.5 bg-white"></span>
+              </div>
+            </button>
+          </div>
+
+          <!-- Navigation -->
+          <nav
+            id="nav-menu"
+            class="hidden absolute top-full right-4 bg-white shadow-lg rounded-lg w-60 p-4 lg:static lg:flex lg:bg-transparent lg:shadow-none lg:rounded-none lg:w-auto lg:p-0"
+          >
+            <ul
+              class="flex flex-col lg:flex-row gap-4 mt-2 lg:gap-6 xl:gap-14 lg:mr-10 text-base"
+            >
+              <li>
+                <a
+                  href="#home"
+                  class="text-gray-800 lg:text-white hover:underline"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#courses"
+                  class="text-gray-800 lg:text-white hover:underline"
+                  >Courses</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#community"
+                  class="text-gray-800 lg:text-white hover:underline"
+                  >Community</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#mission"
+                  class="text-gray-800 lg:text-white hover:underline"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#faq"
+                  class="text-gray-800 lg:text-white hover:underline"
+                  >Faq</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="text-gray-800 lg:text-white hover:underline"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <button
+              class="font-semibold text-slate-200 bg-gradient-to-r from-[#2555bd] to-[#0f172a] py-2 px-8 rounded-full transition duration-300 ease-in-out hover:shadow-xl hover:scale-105 hover:from-[#1e3a8a] hover:to-[#020617] mt-2 lg:mt-0"
+            >
+              Login
+            </button>
+          </nav>
+          
+        </div>
+      </div>
+    </header>
+
+    <section
+      id="home"
+      class="pt-24 md:pt-28 px-4 bg-gradient-to-r from-[#0f172a] to-[#3b82f6] text-white"
+    >
+      <div
+        class="container max-w-screen-2xl sm:px-6 lg:px-8 xl:px-6 2xl:px-12 mx-auto sm:overflow-x-hidden"
+      >
+        <div
+          class="flex flex-col-reverse lg:flex-row items-center justify-between gap-10"
+        >
+          <!-- Text Content -->
+          <div
+            class="w-full lg:w-1/2 text-center lg:text-left"
+            data-aos="fade-right"
+          >
+            <h1
+              class="font-bold text-2xl sm:text-4xl lg:text-4xl xl:text-5xl leading-tight"
+            >
+              Ubah Ide <span class="text-[#2563eb]">Jadi Inovasi</span>, <br class="hidden lg:block" />
+              Lewat Kode
+            </h1>
+            <p
+              class="text-xs sm:text-center lg:text-justify sm:text-base lg:text-base xl:text-xl text-gray-300 leading-relaxed mt-4 mb-8 sm:mt-5"
+            >
+              CodeFuture adalah platform pembelajaran digital yang
+              <br class="hidden lg:block" />
+              dirancang untuk membekali generasi muda dengan
+              <br class="hidden lg:block" />
+              keterampilan teknologi masa depan mulai dari coding,
+              <br class="hidden lg:block" />
+              kecerdasan buatan, hingga keamanan siber.
+            </p>
+            <button
+              class="mb-10 inline-block text-sm sm:text-base font-semibold text-slate-200 bg-gradient-to-r from-[#2563eb] to-[#0f172a] py-3 px-6 sm:px-8 rounded-full transition duration-300 ease-in-out hover:shadow-xl hover:scale-105 hover:from-[#1e40af] hover:to-[#020617]"
+            >
+              Mulai belajar sekarang
+            </button>
+          </div>
+
+          <!-- Image Content -->
+          <div class="w-full lg:w-1/2" data-aos="fade-left">
+            <div class="relative">
+              <img
+                src="dist/img/blue.jpg"
+                alt="Hero Image"
+                class="w-[250px] sm:w-[300px] md:w-[400px] xl:w-[450px] lg:mt-5 2xl:w-[500px] mx-auto rounded-full ring-8 ring-white/10 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.9)] lg:mb-20 bg-white/5 sm:mt-5"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-[#0f172a]" id="courses">
+      <div class="container max-w-6xl mx-auto md:px-8 lg:px-8 xl:px-0 mb-10">
+        <div class="text-center mb-8 sm:mb-10 lg:mb-12">
+          <h2
+            class="text-2xl sm:text-4xl text-gradient-to-r from-[#2563eb] to-[#0f172a] text-white font-bold"
+          >
+            Explore Our <span class="text-[#2563eb]">Courses</span>
+          </h2>
+          <p class="text-gray-300 mt-2 text-xs sm:text-base">
+            Bangun Keahlian Digitalmu Mulai dari Sini
+          </p>
+        </div>
+
+        <div
+          class="px-4 sm:px-0 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-6 overflow-x-auto sm:overflow-visible sm:grid flex sm:flex-none space-x-4 py-2 sm:space-x-0 scrollbar-hide"
+        >
+          <!-- Web Development -->
+          <div
+            class="min-w-[280px] sm:min-w-0 bg-[#1e293b] shadow-xl border border-gray-700 rounded-xl p-6 hover:shadow-lg hover:shadow-orange-500/20 transition"
+          >
+            <div class="mb-3 mt-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 452 520"
+                class="w-10 h-10"
+              >
+                <path fill="#E44D26" d="M41,460 L0,0 H452 L411,460 L226,512" />
+                <path fill="#F16529" d="M226,472 L375,431 L411,37 H226" />
+                <path
+                  fill="#EBEBEB"
+                  d="M226,208 H150 L145,154 H226 V103 H89 L91,127 L104,279 H226 V208 Z M226,346 L174,331 L171,294 H123 L130,371 L226,398 V346 Z"
+                />
+                <path
+                  fill="#FFFFFF"
+                  d="M226,208 V259 H296 L289,331 L226,346 V398 L322,371 L337,208 H226 Z M226,103 V154 H342 L347,103 H226 Z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-white">Web Development</h3>
+            <p class="text-gray-300 text-sm sm:text-sm text-justify mt-2">
+              Pelajari HTML, CSS, JavaScript, dan framework modern untuk
+              membangun website profesional yang responsif dan interaktif.
+            </p>
+            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- Artificial Intelligence -->
+          <div
+            class="min-w-[280px] sm:min-w-0 bg-[#1e293b] shadow-xl border border-gray-700 rounded-xl p-6 hover:shadow-lg hover:shadow-purple-500/20 transition"
+          >
+            <div class="mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="10 10 40 40"
+                class="w-14 h-14"
+              >
+                <!-- Bentuk otak -->
+                <path
+                  d="M24,20 
+       a4,4 0 0,1 8,0 
+       a4,4 0 0,1 8,0 
+       c4,0 6,4 6,8 
+       s-2,8 -6,8 
+       a4,4 0 0,1 -8,0 
+       a4,4 0 0,1 -8,0 
+       c-4,0 -6,-4 -6,-8 
+       s2,-8 6,-8"
+                  fill="#c084fc"
+                  stroke="#a855f7"
+                  stroke-width="1"
+                />
+
+                <!-- Titik koneksi -->
+                <circle cx="20" cy="24" r="1.5" fill="#9333ea" />
+                <circle cx="44" cy="24" r="1.5" fill="#9333ea" />
+                <circle cx="32" cy="32" r="1.5" fill="#9333ea" />
+                <circle cx="26" cy="40" r="1.5" fill="#9333ea" />
+                <circle cx="38" cy="40" r="1.5" fill="#9333ea" />
+
+                <!-- Garis koneksi -->
+                <line
+                  x1="20"
+                  y1="24"
+                  x2="32"
+                  y2="32"
+                  stroke="#9333ea"
+                  stroke-width="1"
+                />
+                <line
+                  x1="44"
+                  y1="24"
+                  x2="32"
+                  y2="32"
+                  stroke="#9333ea"
+                  stroke-width="1"
+                />
+                <line
+                  x1="26"
+                  y1="40"
+                  x2="32"
+                  y2="32"
+                  stroke="#9333ea"
+                  stroke-width="1"
+                />
+                <line
+                  x1="38"
+                  y1="40"
+                  x2="32"
+                  y2="32"
+                  stroke="#9333ea"
+                  stroke-width="1"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-white">
+              Artificial Intelligence
+            </h3>
+            <p class="text-gray-300 text-sm text-justify mt-2">
+              Pahami konsep kecerdasan buatan, machine learning, dan neural
+              network untuk menciptakan solusi teknologi masa depan.
+            </p>
+            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- Cybersecurity -->
+          <div
+            class="min-w-[280px] sm:min-w-0 bg-[#1e293b] shadow-xl border border-gray-700 rounded-xl p-6 hover:shadow-lg hover:shadow-blue-500/20 transition"
+          >
+            <div class="mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 64 64"
+                width="64"
+                height="64"
+              >
+                <path
+                  fill="#2563EB"
+                  d="M32 4L8 12v16c0 13.2 9.3 25.5 24 28 14.7-2.5 24-14.8 24-28V12L32 4z"
+                />
+                <path
+                  fill="#fff"
+                  d="M32 48c-7.2-2-12-8.8-12-17V18.2l12-4.3 12 4.3V31c0 8.2-4.8 15-12 17z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-white">Cybersecurity</h3>
+            <p class="text-gray-300 text-sm text-justify mt-2">
+              Bekali dirimu dengan pengetahuan tentang keamanan digital, ethical
+              hacking, dan perlindungan data di era siber.
+            </p>
+            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- UI/UX Design -->
+          <div
+            class="min-w-[280px] sm:min-w-0 bg-[#1e293b] shadow-xl border border-gray-700 rounded-xl p-6 hover:shadow-lg hover:shadow-green-500/20 transition"
+          >
+            <div class="mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 64 64"
+                width="64"
+                height="64"
+              >
+                <!-- Layar / Monitor -->
+                <rect
+                  x="6"
+                  y="10"
+                  width="52"
+                  height="36"
+                  rx="4"
+                  ry="4"
+                  fill="#22c55e"
+                />
+                <rect
+                  x="12"
+                  y="16"
+                  width="40"
+                  height="24"
+                  rx="2"
+                  ry="2"
+                  fill="#ffffff"
+                />
+
+                <!-- Pensil di atas kanan -->
+                <g transform="translate(38,6) rotate(45)">
+                  <rect
+                    x="0"
+                    y="0"
+                    width="6"
+                    height="18"
+                    rx="1"
+                    ry="1"
+                    fill="#86efac"
+                  />
+                  <polygon points="0,0 3,-3 6,0" fill="#86efac" />
+                  <rect x="0" y="18" width="6" height="2" fill="#065f46" />
+                </g>
+
+                <!-- Dudukan monitor -->
+                <rect
+                  x="28"
+                  y="48"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  fill="#a7f3d0"
+                />
+                <rect
+                  x="24"
+                  y="54"
+                  width="16"
+                  height="4"
+                  rx="2"
+                  fill="#4ade80"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-white">UI/UX Design</h3>
+            <p class="text-gray-300 text-sm text-justify mt-2">
+              Ciptakan pengalaman pengguna yang menarik dan fungsional melalui
+              desain antarmuka yang intuitif dan estetis.
+            </p>
+            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- Mobile Development -->
+          <div
+            class="min-w-[280px] sm:min-w-0 bg-[#1e293b] shadow-xl border border-gray-700 rounded-xl p-6 hover:shadow-lg hover:shadow-yellow-500/20 transition"
+          >
+            <div class="mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 64 64"
+                width="64"
+                height="64"
+              >
+                <!-- Body Smartphone -->
+                <rect
+                  x="18"
+                  y="6"
+                  width="28"
+                  height="52"
+                  rx="4"
+                  ry="4"
+                  fill="#facc15"
+                />
+
+                <!-- Layar -->
+                <rect
+                  x="22"
+                  y="10"
+                  width="20"
+                  height="40"
+                  rx="2"
+                  ry="2"
+                  fill="#fef9c3"
+                />
+
+                <!-- Tombol home -->
+                <circle cx="32" cy="54" r="2" fill="#a16207" />
+
+                <!-- Icon kode (</>) -->
+                <polyline
+                  points="27,30 24,27 27,24"
+                  stroke="#a16207"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <polyline
+                  points="37,24 40,27 37,30"
+                  stroke="#a16207"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <line
+                  x1="30"
+                  y1="23"
+                  x2="34"
+                  y2="31"
+                  stroke="#a16207"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-white">Mobile Development</h3>
+            <p class="text-gray-300 text-sm text-justify mt-2">
+              Kuasai pengembangan aplikasi mobile berbasis Android dan iOS
+              dengan pendekatan native maupun cross-platform.
+            </p>
+            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- Data Science -->
+          <div
+            class="min-w-[280px] sm:min-w-0 bg-[#1e293b] shadow-xl border border-gray-700 rounded-xl p-6 hover:shadow-lg hover:shadow-red-500/20 transition"
+          >
+            <div class="mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 64 64"
+                width="64"
+                height="64"
+              >
+                <!-- Background lingkaran -->
+                <circle cx="32" cy="32" r="30" fill="#fee2e2" />
+
+                <!-- Sumbu -->
+                <line
+                  x1="10"
+                  y1="52"
+                  x2="54"
+                  y2="52"
+                  stroke="#ef4444"
+                  stroke-width="2"
+                />
+                <line
+                  x1="10"
+                  y1="52"
+                  x2="10"
+                  y2="12"
+                  stroke="#ef4444"
+                  stroke-width="2"
+                />
+
+                <!-- Grafik batang -->
+                <rect x="14" y="40" width="6" height="12" fill="#f87171" />
+                <rect x="24" y="34" width="6" height="18" fill="#ef4444" />
+                <rect x="34" y="28" width="6" height="24" fill="#dc2626" />
+                <rect x="44" y="20" width="6" height="32" fill="#b91c1c" />
+
+                <!-- Grafik garis -->
+                <polyline
+                  points="17,40 27,34 37,28 47,20"
+                  fill="none"
+                  stroke="#7f1d1d"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-white">Data Science</h3>
+            <p class="text-gray-300 text-sm text-justify mt-2">
+              Pelajari cara mengolah, menganalisis, dan menafsirkan data untuk
+              mendukung pengambilan keputusan berbasis informasi.
+            </p>
+            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lg:py-32 bg-[#1e293b]" id="mission">
+      <div
+        class="container max-w-6xl mx-auto px-4 lg:px-8 xl:px-0 sm:gap-8 lg:gap-10 grid items-center lg:grid-cols-2"
+      >
+        <!-- Illustration Image -->
+        <div class="sm:mt-20 lg:mt-0">
+          <img
+            src="dist/img/misi.jpg"
+            alt="Mission Image"
+            class="hidden sm:block rounded-xl shadow-md object-cover w-full h-[300px] border border-gray-700"
+          />
+        </div>
+
+        <!-- Mission Text -->
+        <div class="py-16 sm:py-0 sm:px-2 sm:mb-20 lg:mb-0 lg:px-0">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+            Our <span class="text-[#2563eb]">Mission</span>
+          </h2>
+          <p
+            class="text-gray-300 mt-4 mb-6 text-sm sm:text-base text-justify leading-relaxed"
+          >
+            Misi kami adalah membuka akses seluas-luasnya terhadap pendidikan
+            digital berkualitas, dan membekali generasi muda dengan keterampilan
+            seperti coding, kecerdasan buatan, dan keamanan siber untuk
+            menciptakan inovasi di era digital.
+          </p>
+          <ul class="space-y-3 text-gray-300 text-sm sm:text-base">
+            <li class="flex items-start gap-2">
+              <svg
+                class="w-5 h-5 text-green-400 flex-shrink-0 mt-1"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-10.707a1 1 0 00-1.414-1.414L9 9.586 7.707 8.293a1 1 0 00-1.414 1.414L9 12.414l4.707-4.707z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              Kurikulum relevan dengan industri
+            </li>
+
+            <li class="flex items-start gap-2">
+              <svg
+                class="w-5 h-5 text-green-400 flex-shrink-0 mt-1"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-10.707a1 1 0 00-1.414-1.414L9 9.586 7.707 8.293a1 1 0 00-1.414 1.414L9 12.414l4.707-4.707z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              Pengajar profesional dan berpengalaman
+            </li>
+
+            <li class="flex items-start gap-2">
+              <svg
+                class="w-5 h-5 text-green-400 flex-shrink-0 mt-1"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-10.707a1 1 0 00-1.414-1.414L9 9.586 7.707 8.293a1 1 0 00-1.414 1.414L9 12.414l4.707-4.707z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              Proyek langsung dan praktik nyata
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="lg:py-32 sm:py-20 py-16 bg-[#0f172a]" id="community">
+      <div
+        class="container max-w-6xl mx-auto px-5 sm:px-6 lg:px-8 xl:px-0 grid gap-10 items-center lg:grid-cols-2"
+      >
+        <!-- Text & User Cards -->
+        <div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+            Join Our <span class="text-[#2563eb]">Community</span>
+          </h2>
+          <p class="text-gray-300 mt-2 mb-6 text-sm sm:text-base">
+            Bergabunglah dengan komunitas teknologi untuk belajar, berbagi, dan
+            berkolaborasi.
+          </p>
+
+          <div class="space-y-4">
+            <!-- Card 1 -->
+            <div
+              class="bg-[#1e293b] rounded-xl shadow-sm p-4 flex items-start gap-4 border border-gray-700"
+            >
+              <img
+                src="dist/img/digit.jpg"
+                alt="fikry"
+                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold text-sm text-white">fikry</p>
+                <p class="text-gray-300 text-sm">
+                  Baru saja menyelesaikan kursus React! Materinya luar biasa 🚀
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="bg-[#1e293b] rounded-xl shadow-sm p-4 flex items-start gap-4 border border-gray-700"
+            >
+              <img
+                src="/dist/img/comuntiass.jpg"
+                alt="billy"
+                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold text-sm text-white">billy</p>
+                <p class="text-gray-300 text-sm">
+                  Ada yang sedang ngerjain proyek Machine Learning? Yuk
+                  kolaborasi!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Community Image -->
+        <div>
+          <img
+            src="dist/img/digit.jpg"
+            alt="Community"
+            class="hidden sm:block rounded-xl shadow-md object-cover w-full h-[320px] border border-gray-700"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="faq"
+      class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 xl:px-0 bg-[#1e293b]"
+    >
+      <div
+        class="container max-w-6xl mx-auto flex flex-col lg:flex-row items-start lg:gap-10"
+      >
+        <!-- Image -->
+        <div class="w-full lg:w-1/2 flex justify-center">
+          <div
+            class="relative w-[150px] h-[150px] md:w-[200px] md:h-[200px] lg:w-[400px] lg:h-[400px] mx-auto"
+          >
+            <img
+              src="/dist/img/ques.jpg"
+              alt="FAQ Illustration"
+              class="w-full h-full object-cover rounded-full ring-8 ring-white/10 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.9)] mb-12 bg-white/5 relative z-10"
+            />
+          </div>
+        </div>
+
+        <!-- Accordion -->
+        <div class="w-full lg:w-1/2 mt-16">
+          <h2
+            class="text-2xl sm:text-3xl lg:text-3xl xl:text-4xl font-bold text-white mb-6"
+          >
+            Frequently Asked <span class="text-[#2563eb]">Questions</span>
+          </h2>
+          <div
+            class="bg-[#1e293b] rounded-xl shadow divide-y divide-gray-700"
+            id="faqAccordion"
+          >
+            <!-- FAQ Item -->
+            <div class="border-b border-gray-700">
+              <button
+                class="faq-toggle w-full flex justify-between items-center py-4 px-4 sm:px-6 text-left text-white font-medium hover:bg-gray-800 transition"
+                data-index="0"
+              >
+                <span class="text-sm sm:text-base">Apa itu CodeFuture?</span>
+                <span
+                  data-icon
+                  class="text-xl transform transition-transform duration-300"
+                  >+</span
+                >
+              </button>
+              <div
+                class="faq-content hidden px-4 sm:px-6 pb-4 text-justify text-gray-300 text-sm"
+              >
+                CodeFuture adalah platform pembelajaran digital yang dirancang
+                untuk membekali generasi muda dengan keterampilan teknologi masa
+                depan mulai dari coding, kecerdasan buatan, hingga keamanan
+                siber.
+              </div>
+            </div>
+
+            <!-- FAQ Item -->
+            <div class="border-b border-gray-700">
+              <button
+                class="faq-toggle w-full flex justify-between items-center py-4 px-4 sm:px-6 text-left text-white font-medium hover:bg-gray-800 transition"
+                data-index="1"
+              >
+                <span class="text-sm sm:text-base"
+                  >Apa keunggulan belajar di CodeFuture?</span
+                >
+                <span
+                  data-icon
+                  class="text-xl transform transition-transform duration-300"
+                  >+</span
+                >
+              </button>
+              <div
+                class="faq-content hidden px-4 sm:px-6 pb-4 text-justify text-gray-300 text-sm"
+              >
+                Kami menawarkan kurikulum berbasis industri, pembelajaran
+                interaktif, dan komunitas belajar yang suportif dirancang untuk
+                membantu peserta siap menghadapi tantangan dunia digital nyata.
+              </div>
+            </div>
+
+            <!-- FAQ Item -->
+            <div class="border-b border-gray-700">
+              <button
+                class="faq-toggle w-full flex justify-between items-center py-4 px-4 sm:px-6 text-left text-white font-medium hover:bg-gray-800 transition"
+                data-index="2"
+              >
+                <span class="text-sm sm:text-base"
+                  >Apa saja bahasa dan teknologi yang diajarkan?</span
+                >
+                <span
+                  data-icon
+                  class="text-xl transform transition-transform duration-300"
+                  >+</span
+                >
+              </button>
+              <div
+                class="faq-content hidden px-4 sm:px-6 text-justify pb-4 text-gray-300 text-sm"
+              >
+                CodeFuture mengajarkan HTML, CSS, JavaScript, React, dan
+                Laravel. Selain itu, kami juga menyediakan materi untuk AI,
+                keamanan siber, UI/UX, mobile development, dan data science.
+              </div>
+            </div>
+
+            <!-- FAQ Item -->
+            <div class="border-b border-gray-700">
+              <button
+                class="faq-toggle w-full flex justify-between items-center py-4 px-4 sm:px-6 text-left text-white font-medium hover:bg-gray-800 transition"
+                data-index="3"
+              >
+                <span class="text-sm sm:text-base"
+                  >Apakah saya perlu pengalaman sebelumnya?</span
+                >
+                <span
+                  data-icon
+                  class="text-xl transform transition-transform duration-300"
+                  >+</span
+                >
+              </button>
+              <div
+                class="faq-content hidden px-4 sm:px-6 text-justify pb-4 text-gray-300 text-sm"
+              >
+                Tidak. Semua materi dirancang dari level pemula hingga lanjutan,
+                sehingga siapa pun bisa mulai belajar tanpa latar belakang
+                teknis.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#0f172a] py-16 sm:py-20 lg:py-20" id="contact">
+      <div
+        class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-0 text-center"
+      >
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-2">
+          Contact
+        </h2>
+        <p class="text-gray-300 text-xs mb-10 md:text-base">
+          Siap memulai perjalanan coding Anda?
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-8 text-left">
+          <!-- Contact Info -->
+          <div class="order-1 md:order-2">
+            <div class="bg-[#1e293b] rounded-xl shadow-md p-6">
+              <h3 class="text-lg font-semibold text-white mb-4">
+                Contact Information
+              </h3>
+              <ul class="space-y-3 text-sm text-gray-300">
+                <li class="flex items-center">
+                  <svg
+                    class="w-5 h-5 text-[#2563eb] mr-2"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 12c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4 1.8 4 4 4zm0 2c-2.7 0-8 1.3-8 4v2h16v-2c0-2.7-5.3-4-8-4z"
+                    />
+                  </svg>
+                  info@codefuture.com
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="w-5 h-5 text-[#2563eb] mr-2"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.2.48 2.5.74 3.85.74a1 1 0 011 1V20a1 1 0 01-1 1C9.4 21 3 14.6 3 6a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.25 2.65.74 3.85a1 1 0 01-.27 1.11l-2.35 2.35z"
+                    />
+                  </svg>
+                  +62 123-456-789
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="w-5 h-5 text-[#2563eb] mr-2"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"
+                    />
+                  </svg>
+                  Indonesia
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="order-2 md:order-1">
+            <div class="bg-[#1e293b] rounded-xl shadow-md p-6">
+              <form class="space-y-5">
+                <div>
+                  <label class="block text-sm font-medium text-gray-300 mb-1"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    class="w-full border border-gray-600 bg-[#0f172a] text-white rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-300 mb-1"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="w-full border border-gray-600 bg-[#0f172a] text-white rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-300 mb-1"
+                    >Message</label
+                  >
+                  <textarea
+                    rows="4"
+                    class="w-full border border-gray-600 bg-[#0f172a] text-white rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="w-full bg-gradient-to-r from-[#2563eb] to-[#0f172a] text-slate-200 py-2 rounded-md font-semibold transition duration-300 ease-in-out hover:shadow-lg hover:scale-105 hover:from-[#1e40af] hover:to-[#020617]"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer start -->
+    <div class="pt-24 pb-12 bg-[#0a0f1a]" id="footer">
+      <div class="container mx-auto px-6 sm:px-8 lg:px-10 xl:px-10 2xl:px-16">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Kolom 1 -->
+          <div class="col-span-2 sm:col-span-1 lg:col-span-1">
+            <h2
+              class="flex items-center font-bold text-3xl lg:text-2xl xl:text-4xl text-white mb-5 space-x-2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-[#2563eb]"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+                <line x1="12" y1="2" x2="12" y2="22" />
+              </svg>
+              <span> Code <span class="text-[#2563eb]">Future</span> </span>
+            </h2>
+
+            <p class="text-justify text-slate-300 text-xs sm:text-sm">
+              CodeFuture adalah platform pembelajaran digital yang dirancang
+              untuk membekali generasi muda dengan keterampilan teknologi masa
+              depan mulai dari coding, kecerdasan buatan, hingga keamanan siber.
+            </p>
+          </div>
+
+          <!-- Kolom 2 -->
+          <div class="sm:col-span-1">
+            <h3 class="font-semibold text-white mb-5 text-xl">Courses</h3>
+            <ul class="text-slate-300 text-xs sm:text-sm">
+              <li>
+                <a href="#courses" class="inline-block hover:underline mb-3"
+                  >Web Development</a
+                >
+              </li>
+              <li>
+                <a href="#courses" class="inline-block hover:underline mb-3"
+                  >Artificial Intelligence</a
+                >
+              </li>
+              <li>
+                <a href="#courses" class="inline-block hover:underline mb-3"
+                  >Mobile App</a
+                >
+              </li>
+              <li>
+                <a href="#courses" class="inline-block hover:underline mb-3"
+                  >UI/UX Design</a
+                >
+              </li>
+              <li>
+                <a href="#courses" class="inline-block hover:underline mb-3"
+                  >Data Science</a
+                >
+              </li>
+              <li>
+                <a href="#courses" class="inline-block hover:underline mb-3"
+                  >Cyber Security</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Kolom 3 -->
+          <div>
+            <h3 class="font-semibold text-white mb-5 text-xl">Navigasi</h3>
+            <ul class="text-slate-300 text-xs sm:text-sm">
+              <li>
+                <a href="#home" class="inline-block hover:underline mb-3"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#courses" class="inline-block hover:underline mb-3"
+                  >Courses</a
+                >
+              </li>
+              <li>
+                <a href="#community" class="inline-block hover:underline mb-3"
+                  >Community</a
+                >
+              </li>
+              <li>
+                <a href="#mission" class="inline-block hover:underline mb-3"
+                  >Mission</a
+                >
+              </li>
+              <li>
+                <a href="#faq" class="inline-block hover:underline mb-3">Faq</a>
+              </li>
+              <li>
+                <a href="#contact" class="inline-block hover:underline mb-3"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Kolom 4 -->
+          <div>
+            <h3 class="font-semibold text-white mb-5 text-xl">Follow Us</h3>
+            <div class="flex items-center space-x-3">
+              <!-- Instagram -->
+              <a
+                href="#"
+                class="w-9 h-9 flex items-center justify-center rounded-full border border-slate-500 text-white hover:bg-[#2563eb] hover:border-[#2563eb] transition"
+                aria-label="GitHub"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  height="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>GitHub</title>
+                  <path
+                    d="M12 0C5.37 0 0 5.373 0 12a12 12 0 008.207 11.387c.6.113.793-.26.793-.577 0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.613-4.042-1.613-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.082-.73.082-.73 1.204.086 1.838 1.235 1.838 1.235 1.07 1.835 2.808 1.305 3.492.998.107-.775.418-1.306.76-1.606-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.467-2.381 1.235-3.22-.124-.304-.535-1.526.117-3.176 0 0 1.008-.322 3.3 1.23a11.52 11.52 0 013.003-.404c1.02.005 2.047.138 3.003.404 2.29-1.552 3.295-1.23 3.295-1.23.653 1.65.242 2.872.119 3.176.77.84 1.232 1.91 1.232 3.22 0 4.61-2.807 5.624-5.48 5.921.43.372.823 1.102.823 2.222 0 1.604-.015 2.898-.015 3.293 0 .32.19.694.8.576A12.005 12.005 0 0024 12c0-6.627-5.373-12-12-12z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="w-9 h-9 flex items-center justify-center rounded-full border border-slate-500 text-white hover:bg-[#2563eb] hover:border-[#2563eb] transition"
+                aria-label="Code Icon"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Discord</title>
+                  <path
+                    d="M20.317 4.3698a19.7913 19.7913 0 0 0-4.8851-1.5152.0741.0741 0 0 0-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 0 0-.0785-.037 19.7363 19.7363 0 0 0-4.8852 1.515.0699.0699 0 0 0-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 0 0 .0312.0561 19.9782 19.9782 0 0 0 5.9931 3.0589.0777.0777 0 0 0 .0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 0 0-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 0 1-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 0 1 .0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 0 1 .0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 0 1-.0066.1276 12.2986 12.2986 0 0 1-1.873.8914.0766.0766 0 0 0-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 0 0 .0842.0286 19.9336 19.9336 0 0 0 6.0022-3.0599.077.077 0 0 0 .0312-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 0 0-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.4189 0 1.3333-.9555 2.419-2.1569 2.419zm7.9748 0c-1.1825 0-2.1568-1.0857-2.1568-2.419 0-1.3332.9554-2.4189 2.1568-2.4189 1.2109 0 2.1757 1.0952 2.1568 2.4189 0 1.3333-.9459 2.419-2.1568 2.419Z"
+                  />
+                </svg>
+              </a>
+
+              <!-- GitHub -->
+              <a
+                href="#"
+                class="w-9 h-9 flex items-center justify-center rounded-full border border-slate-500 text-white hover:bg-[#2563eb] hover:border-[#2563eb] transition"
+                aria-label="Code Icon"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 
+                            1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 
+                            7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 
+                            1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-slate-700 mt-8 mb-8" />
+
+        <p class="text-center text-sm text-slate-300">
+          &copy; 2025 Code Future. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <script src="/dist/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
