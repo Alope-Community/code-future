@@ -7,9 +7,11 @@
     <link href="/dist/output.css" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body class="overflow-x-hidden">
+  <body class="">
     <header
       class="bg-gradient-to-r from-[#0f172a] via-[#1e3a8a] to-[#2563eb] fixed left-0 top-0 w-full z-50 shadow-md"
+      data-aos="fade-down"
+      data-aos-once="true"
     >
       <div class="container mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
@@ -75,18 +77,19 @@
               </li>
               <li>
                 <a
+                  href="#mission"
+                  class="text-gray-800 lg:text-white hover:underline"
+                  >Mission</a
+                >
+              </li>
+              <li>
+                <a
                   href="#community"
                   class="text-gray-800 lg:text-white hover:underline"
                   >Community</a
                 >
               </li>
-              <li>
-                <a
-                  href="#mission"
-                  class="text-gray-800 lg:text-white hover:underline"
-                  >About</a
-                >
-              </li>
+
               <li>
                 <a
                   href="#faq"
@@ -115,6 +118,8 @@
     <section
       id="home"
       class="pt-24 md:pt-28 px-4 bg-gradient-to-r from-[#0f172a] to-[#3b82f6] text-white"
+      data-aos="fade-down"
+      data-aos-once="true"
     >
       <div
         class="container max-w-screen-2xl sm:px-6 lg:px-8 xl:px-6 2xl:px-12 mx-auto sm:overflow-x-hidden"
@@ -123,7 +128,11 @@
           class="flex flex-col-reverse lg:flex-row items-center justify-between gap-10"
         >
           <!-- Text Content -->
-          <div class="w-full lg:w-1/2 text-center lg:text-left">
+          <div
+            class="w-full lg:w-1/2 text-center lg:text-left"
+            data-aos="fade-right"
+            data-aos-once="true"
+          >
             <h1
               class="font-bold text-2xl sm:text-4xl lg:text-4xl xl:text-5xl leading-tight"
             >
@@ -150,7 +159,11 @@
           </div>
 
           <!-- Image Content -->
-          <div class="w-full lg:w-1/2">
+          <div
+            class="w-full lg:w-1/2"
+            data-aos="fade-left"
+            data-aos-once="true"
+          >
             <div class="relative">
               <img
                 src="dist/img/blue.jpg"
@@ -165,7 +178,11 @@
 
     <section class="py-16 bg-[#0f172a]" id="courses">
       <div class="container max-w-6xl mx-auto md:px-8 lg:px-8 xl:px-0 mb-10">
-        <div class="text-center mb-8 sm:mb-10 lg:mb-12">
+        <div
+          class="text-center mb-8 sm:mb-10 lg:mb-12"
+          data-aos="fade-down"
+          data-aos-once="true"
+        >
           <h2
             class="text-2xl sm:text-4xl text-gradient-to-r from-[#2563eb] to-[#0f172a] text-white font-bold"
           >
@@ -178,6 +195,8 @@
 
         <div
           class="px-4 sm:px-0 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-6 overflow-x-auto sm:overflow-visible sm:grid flex sm:flex-none space-x-4 py-2 sm:space-x-0 scrollbar-hide"
+          data-aos="zoom-in-up"
+          data-aos-once="true"
         >
           <!-- Web Development -->
           <div
@@ -206,7 +225,7 @@
               Pelajari HTML, CSS, JavaScript, dan framework modern untuk
               membangun website profesional yang responsif dan interaktif.
             </p>
-            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+            <a href="#" class="text-[#2563eb] mt-4 inline-block text-sm hover:underline"
               >Pelajari Lebih Lanjut</a
             >
           </div>
@@ -286,7 +305,7 @@
               Pahami konsep kecerdasan buatan, machine learning, dan neural
               network untuk menciptakan solusi teknologi masa depan.
             </p>
-            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+            <a href="#" class="text-[#2563eb] mt-4 inline-block text-sm  hover:underline"
               >Pelajari Lebih Lanjut</a
             >
           </div>
@@ -317,7 +336,7 @@
               Bekali dirimu dengan pengetahuan tentang keamanan digital, ethical
               hacking, dan perlindungan data di era siber.
             </p>
-            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+            <a href="#" class="text-[#2563eb] mt-4 text-sm inline-block hover:underline"
               >Pelajari Lebih Lanjut</a
             >
           </div>
@@ -392,7 +411,7 @@
               Ciptakan pengalaman pengguna yang menarik dan fungsional melalui
               desain antarmuka yang intuitif dan estetis.
             </p>
-            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+            <a href="#" class="text-[#2563eb] mt-4 text-sm  inline-block hover:underline"
               >Pelajari Lebih Lanjut</a
             >
           </div>
@@ -466,7 +485,7 @@
               Kuasai pengembangan aplikasi mobile berbasis Android dan iOS
               dengan pendekatan native maupun cross-platform.
             </p>
-            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+            <a href="#" class="text-[#2563eb] mt-4 text-sm  inline-block hover:underline"
               >Pelajari Lebih Lanjut</a
             >
           </div>
@@ -525,7 +544,7 @@
               Pelajari cara mengolah, menganalisis, dan menafsirkan data untuk
               mendukung pengambilan keputusan berbasis informasi.
             </p>
-            <a href="#" class="text-[#2563eb] mt-4 inline-block hover:underline"
+            <a href="#" class="text-[#2563eb] mt-4 text-sm inline-block hover:underline"
               >Pelajari Lebih Lanjut</a
             >
           </div>
@@ -538,17 +557,21 @@
         class="container max-w-6xl mx-auto px-4 lg:px-8 xl:px-0 sm:gap-8 lg:gap-10 grid items-center lg:grid-cols-2"
       >
         <!-- Illustration Image -->
-        <div class="sm:mt-20 lg:mt-0">
+        <div class="sm:mt-20 lg:mt-0 h-full" data-aos="flip-up" data-aos-once="true">
           <img
             src="dist/img/mision.jpg"
             alt="Mission Image"
-            class="hidden sm:block rounded-xl shadow-md object-cover w-full h-[300px] border border-gray-700"
+            class="hidden sm:block rounded-xl shadow-md object-cover w-full h-full border border-gray-700"
           />
         </div>
 
         <!-- Mission Text -->
-        <div class="py-16 sm:py-0 sm:px-2 sm:mb-20 lg:mb-0 lg:px-0">
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+        <div
+          class="py-16 sm:py-0 sm:px-2 sm:mb-20 lg:mb-0 lg:px-0"
+          data-aos="zoom-in"
+          data-aos-once="true"
+        >
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mt-5 ">
             Our <span class="text-[#2563eb]">Mission</span>
           </h2>
           <p
@@ -559,7 +582,7 @@
             seperti coding, kecerdasan buatan, dan keamanan siber untuk
             menciptakan inovasi di era digital.
           </p>
-          <ul class="space-y-3 text-gray-300 text-sm sm:text-base">
+          <ul class="space-y-3 text-gray-300 text-sm sm:text-base mb-5">
             <li class="flex items-start gap-2">
               <svg
                 class="w-5 h-5 text-green-400 flex-shrink-0 mt-1"
@@ -615,15 +638,23 @@
       >
         <!-- Text & User Cards -->
         <div>
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+          <h2
+            class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white"
+            data-aos="fade-right"
+            data-aos-once="true"
+          >
             Join Our <span class="text-[#2563eb]">Community</span>
           </h2>
-          <p class="text-gray-300 mt-2 mb-6 text-sm sm:text-base">
+          <p
+            class="text-gray-300 mt-2 mb-6 text-sm sm:text-base"
+            data-aos="fade-right"
+            data-aos-once="true"
+          >
             Bergabunglah dengan komunitas teknologi untuk belajar, berbagi, dan
             berkolaborasi.
           </p>
 
-          <div class="space-y-4">
+          <div class="space-y-4" data-aos="zoom-in" data-aos-once="true">
             <!-- Card 1 -->
             <div
               class="bg-[#1e293b] rounded-xl shadow-sm p-4 flex items-start gap-4 border border-gray-700"
@@ -634,7 +665,7 @@
                 class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover"
               />
               <div>
-                <p class="font-semibold text-sm text-white">fikry</p>
+                <p class="font-semibold text-base text-white">Fikry Ramadhan</p>
                 <p class="text-gray-300 text-sm">
                   Baru saja menyelesaikan kursus React! Materinya luar biasa 🚀
                 </p>
@@ -651,7 +682,7 @@
                 class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover"
               />
               <div>
-                <p class="font-semibold text-sm text-white">billy</p>
+                <p class="font-semibold text-base text-white">Billy Jonathan</p>
                 <p class="text-gray-300 text-sm">
                   Ada yang sedang ngerjain proyek Machine Learning? Yuk
                   kolaborasi!
@@ -662,7 +693,7 @@
         </div>
 
         <!-- Community Image -->
-        <div>
+        <div data-aos="flip-down" data-aos-once="true">
           <img
             src="dist/img/community.jpg"
             alt="Community"
@@ -680,7 +711,11 @@
         class="container max-w-6xl mx-auto flex flex-col lg:flex-row items-start lg:gap-10"
       >
         <!-- Image -->
-        <div class="w-full lg:w-1/2 flex justify-center">
+        <div
+          class="w-full lg:w-1/2 flex justify-center"
+          data-aos="flip-up"
+          data-aos-once="true"
+        >
           <div
             class="relative w-[150px] h-[150px] md:w-[200px] md:h-[200px] lg:w-[400px] lg:h-[400px] mx-auto"
           >
@@ -696,12 +731,16 @@
         <div class="w-full lg:w-1/2 mt-16">
           <h2
             class="text-2xl sm:text-3xl lg:text-3xl xl:text-4xl font-bold text-white mb-6"
+            data-aos="fade-down"
+            data-aos-once="true"
           >
             Frequently Asked <span class="text-[#2563eb]">Questions</span>
           </h2>
           <div
             class="bg-[#1e293b] rounded-xl shadow divide-y divide-gray-700"
             id="faqAccordion"
+            data-aos="flip-down"
+            data-aos-once="true"
           >
             <!-- FAQ Item -->
             <div class="border-b border-gray-700">
@@ -805,6 +844,8 @@
     <section class="bg-[#0f172a] py-16 sm:py-20 lg:py-20" id="contact">
       <div
         class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-0 text-center"
+        data-aos="fade-down"
+        data-aos-once="true"
       >
         <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-2">
           Contact
@@ -815,7 +856,11 @@
 
         <div class="grid md:grid-cols-2 gap-8 text-left">
           <!-- Contact Info -->
-          <div class="order-1 md:order-2">
+          <div
+            class="order-1 md:order-2"
+            data-aos="zoom-in"
+            data-aos-once="true"
+          >
             <div class="bg-[#1e293b] rounded-xl shadow-md p-6">
               <h3 class="text-lg font-semibold text-white mb-4">
                 Contact Information
@@ -831,7 +876,7 @@
                       d="M12 12c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4 1.8 4 4 4zm0 2c-2.7 0-8 1.3-8 4v2h16v-2c0-2.7-5.3-4-8-4z"
                     />
                   </svg>
-                  info@codefuture.com
+                  codefuture@alope.id
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -855,14 +900,18 @@
                       d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"
                     />
                   </svg>
-                  Indonesia
+                  Manislor, Kec. Jalaksana, Kab. Kuningan, Jawa Barat 45554
                 </li>
               </ul>
             </div>
           </div>
 
           <!-- Contact Form -->
-          <div class="order-2 md:order-1">
+          <div
+            class="order-2 md:order-1"
+            data-aos="zoom-in"
+            data-aos-once="true"
+          >
             <div class="bg-[#1e293b] rounded-xl shadow-md p-6">
               <form class="space-y-5">
                 <div>
@@ -906,7 +955,12 @@
     </section>
 
     <!-- footer start -->
-    <div class="pt-24 pb-12 bg-[#0a0f1a]" id="footer">
+    <div
+      class="pt-24 pb-12 bg-[#0a0f1a]"
+      id="footer"
+      data-aos="fade-up"
+      data-aos-once="true"
+    >
       <div class="container mx-auto px-6 sm:px-8 lg:px-10 xl:px-10 2xl:px-16">
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <!-- Kolom 1 -->
@@ -1014,9 +1068,8 @@
           <div>
             <h3 class="font-semibold text-white mb-5 text-xl">Follow Us</h3>
             <div class="flex items-center space-x-3">
-              <!-- Instagram -->
               <a
-                href="#"
+                href="https://github.com/orgs/Alope-Community/dashboard"
                 class="w-9 h-9 flex items-center justify-center rounded-full border border-slate-500 text-white hover:bg-[#2563eb] hover:border-[#2563eb] transition"
                 aria-label="GitHub"
               >
@@ -1035,7 +1088,7 @@
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://discord.com/invite/WV7wAdcp"
                 class="w-9 h-9 flex items-center justify-center rounded-full border border-slate-500 text-white hover:bg-[#2563eb] hover:border-[#2563eb] transition"
                 aria-label="Code Icon"
               >
@@ -1053,9 +1106,8 @@
                 </svg>
               </a>
 
-              <!-- GitHub -->
               <a
-                href="#"
+                href="https://www.instagram.com/alope.world/"
                 class="w-9 h-9 flex items-center justify-center rounded-full border border-slate-500 text-white hover:bg-[#2563eb] hover:border-[#2563eb] transition"
                 aria-label="Code Icon"
               >
